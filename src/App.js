@@ -7,10 +7,10 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <div className="min-vh-100 d-flex flex-column">
       <Navbar />
       <AppRoutes />
-    </>
+    </div>
   );
 }
 
