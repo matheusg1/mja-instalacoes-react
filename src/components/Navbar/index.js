@@ -21,6 +21,9 @@ export default function Navbar() {
                                 <Link className="nav-link active" aria-current="page" to="/">Início</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/portfolio">Portfólio</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/sobre">Sobre nós</Link>
                             </li>
                         </ul>

@@ -2,11 +2,12 @@ import React from 'react';
 import img1 from '../../img/vertical/img-vert1.jpeg'
 import img2 from '../../img/vertical/img-vert2.jpeg'
 
-export default function Sobre() {
+export default function Portfolio(){
+
     const tempoCarousel = 3000;
     const tamanhoBotaoCarousel = 40;
 
-    return (
+    return(
         <>
             <div className='container col-12 mt-5'>
                 <div className='d-flex align-items-center'>
@@ -62,5 +63,6 @@ export default function Sobre() {
                 </div>
             </div>
         </>
-    );
+    )
+    
 }
